@@ -50,7 +50,8 @@
 
 ## 🐍 Contribution Snake
 
-![snake animation](https://github.com/imedkablavi/imedkablavi/blob/output/github-contribution-grid-snake.svg)
+![snake](https://raw.githubusercontent.com/imedkablavi/imedkablavi/output/github-contribution-grid-snake.svg)
+
 
 
 
