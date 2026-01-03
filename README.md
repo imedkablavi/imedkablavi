@@ -33,26 +33,22 @@
   <img src="https://skillicons.dev/icons?i=java,python,js,php,flutter,kotlin,nodejs,react,nextjs,vue,tailwind,mysql,postgres,sqlite,mariadb,git,github" />
 </p>
 
-
-
 ## 📊 GitHub Analytics
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=imedkablavi&show_icons=true&theme=radical&hide_border=true" />
-  <img height="165" src="https://github-readme-streak-stats.herokuapp.com/?user=imedkablavi&theme=radical&hide_border=true" />
+  <img height="165"
+       src="https://github-readme-stats.vercel.app/api?username=imedkablavi&show_icons=true&theme=radical&hide_border=true&cache_seconds=86400" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=imedkablavi&layout=compact&theme=radical&hide_border=true" />
+  <img height="165"
+       src="https://streak-stats.demolab.com?user=imedkablavi&theme=radical&hide_border=true&cache_seconds=86400" />
 </p>
 
-
-
-## 🐍 Contribution Snake
-
-![snake](https://raw.githubusercontent.com/imedkablavi/imedkablavi/output/github-contribution-grid-snake.svg)
-
-
+<p align="center">
+  <img
+    src="https://github-readme-stats.vercel.app/api/top-langs/?username=imedkablavi&layout=compact&theme=radical&hide_border=true&cache_seconds=86400" />
+</p>
 
 
 
