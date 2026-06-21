@@ -1,0 +1,93 @@
+name: Smart Repository Maintenance
+
+on:
+  schedule:
+    # اختار واحد فقط من الأسطر الثلاثة:
+    # - cron: "37 * * * *"       # كل ساعة
+    - cron: "37 7,19 * * *"      # مرتين يومياً: 07:37 و 19:37 UTC
+    # - cron: "37 */4 * * *"     # كل 4 ساعات
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: smart-maintenance-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  maintenance:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+          fetch-depth: 0
+
+      - name: Generate maintenance report
+        run: |
+          set -euo pipefail
+
+          PROJECT="${GITHUB_REPOSITORY##*/}"
+          OWNER="${GITHUB_REPOSITORY%%/*}"
+          DATE_UTC="$(date -u '+%Y-%m-%d %H:%M:%S UTC')"
+          DAY="$(date -u '+%A')"
+          WEEK="$(date -u '+%V')"
+          BRANCH="$(git rev-parse --abbrev-ref HEAD)"
+          COMMIT_SHA="$(git rev-parse --short HEAD)"
+          TOTAL_COMMITS="$(git rev-list --count HEAD || echo 0)"
+          WEEK_COMMITS="$(git rev-list --count --since='7 days ago' HEAD || echo 0)"
+          FILE_COUNT="$(git ls-files | wc -l | tr -d ' ')"
+
+          mkdir -p .github/maintenance
+
+          REPORT_FILE=".github/maintenance/activity-week-${WEEK}.md"
+          COUNTER_FILE=".github/maintenance/run-counter.txt"
+
+          if [ ! -f "$COUNTER_FILE" ]; then
+            echo "0" > "$COUNTER_FILE"
+          fi
+
+          RUN_COUNT=$(( $(cat "$COUNTER_FILE") + 1 ))
+          echo "$RUN_COUNT" > "$COUNTER_FILE"
+
+          SIGN_DATA="$PROJECT|$OWNER|$BRANCH|$COMMIT_SHA|$RUN_COUNT|$DATE_UTC"
+          HASH="$(echo "$SIGN_DATA" | sha256sum | cut -d' ' -f1)"
+
+          {
+            echo ""
+            echo "## Maintenance Run #$RUN_COUNT"
+            echo ""
+            echo "| Field | Value |"
+            echo "|---|---|"
+            echo "| Project | $PROJECT |"
+            echo "| Owner | $OWNER |"
+            echo "| Branch | $BRANCH |"
+            echo "| Latest Commit | $COMMIT_SHA |"
+            echo "| Total Commits | $TOTAL_COMMITS |"
+            echo "| Weekly Commits | $WEEK_COMMITS |"
+            echo "| Tracked Files | $FILE_COUNT |"
+            echo "| Day | $DAY |"
+            echo "| Week | $WEEK |"
+            echo "| Time | $DATE_UTC |"
+            echo "| Integrity Hash | \`$HASH\` |"
+          } >> "$REPORT_FILE"
+
+      - name: Commit and push maintenance update
+        run: |
+          set -euo pipefail
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add .github/maintenance/
+
+          if git diff --cached --quiet; then
+            echo "No maintenance changes to commit."
+            exit 0
+          fi
+
+          git commit -m "chore: update automated maintenance log"
+          git push
