@@ -1,67 +1,58 @@
-<h1 align="center">
-  Hi, I'm Imed Kablavi 👋
-</h1>
+# Imedkablavi
 
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=800&color=36BCF7&center=true&vCenter=true&width=600&lines=Forensic+Informatics+Engineer;Cybersecurity+Specialist;Digital+Forensics+%26+Blue+Team;Server+%26+IT+Administration" />
-</p>
+A software project maintained in the `imedkablavi/imedkablavi` repository.
 
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:1e3c72,100:2a5298&height=120&section=header"/>
-</p>
-## 💫 About Me
+## Features
 
-> 🎓 **Forensic Informatics Engineering** student (Year 2) – Fırat University  
-> 🔐 **Cybersecurity Specialist** (3+ years)  
-> 🖥️ **IT Support & Server Admin** (6+ years)  
-> 🛡️ Focus: Cybercrime, Digital Forensics, Security Awareness  
-> 🎤 Community leader, event organizer, podcast host  
-> 🌱 Interests: AI × Cybersecurity × Software Engineering
+- Repository structure has been documented from the currently tracked files.
 
-<p align="center">
-  <a href="https://discord.gg/.cybrex"><img src="https://skillicons.dev/icons?i=discord" /></a>
-  <a href="https://instagram.com/imed_kablavi"><img src="https://skillicons.dev/icons?i=instagram" /></a>
-  <a href="https://linkedin.com/in/imed-kablavi-a3b518376"><img src="https://skillicons.dev/icons?i=linkedin" /></a>
-  <a href="https://x.com/imed_kablavi"><img src="https://skillicons.dev/icons?i=twitter" /></a>
-</p>
+## Tech Stack
 
+- Project files detected from repository contents
 
+## Project Structure
 
-## 💻 Tech Stack
+```text
+.gitignore
+README.md
+```
 
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=java,python,js,php,flutter,kotlin,nodejs,react,nextjs,vue,tailwind,mysql,postgres,sqlite,mariadb,git,github" />
-</p>
+## Installation
 
-![profile](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=imedkablavi&theme=radical)
+```bash
+No dependency installation command was detected.
+```
 
+## Development
 
+- No development command was detected from tracked files.
 
-## 🏆 Achievements & Motivation
+## Build
 
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=imedkablavi&theme=radical&no-frame=true&row=1&column=6" />
-</p>
+No build command was detected from tracked files.
 
-<p align="center">
-  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical" />
-</p>
+## Tests
 
+No test command was detected from tracked files.
 
+## Environment Variables
 
+Use `.env.example` as the starting point when environment variables are required. Keep real secrets out of git.
 
+- No required environment variables were detected from tracked files.
 
-## 💰 Support My Work
+## Status
 
-<p align="center">
-  <a href="https://buymeacoffee.com/imed_kablavi">
-    <img src="https://img.shields.io/badge/Buy%20Me%20a%20Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black" />
-  </a>
-</p>
+- README generated from the current repository files.
+- Runtime behavior should be verified in the target environment before production use.
 
+## Roadmap / TODO
 
+- Keep this README aligned with future code changes.
+- Add setup notes for deployment environments when they are finalized.
+- Add or expand automated tests when project behavior is stable.
 
+## Author
 
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:2a5298,100:1e3c72&height=100&section=footer"/>
-</p>
+Author: iEmmAd / cybrex  
+GitHub: [imedkablavi](https://github.com/imedkablavi)
