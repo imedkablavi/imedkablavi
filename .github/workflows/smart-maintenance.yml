@@ -12,9 +12,9 @@ on:
           - "yes"
           - "no"
       start_date:
-        description: "Start date, must be Sunday. Good for 2026: 2026-01-18"
+        description: "Use today or YYYY-MM-DD. If not Sunday, it will use next Sunday automatically."
         required: true
-        default: "2026-01-18"
+        default: "today"
       intensity:
         description: "Commits per green square"
         required: true
@@ -36,32 +36,30 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v7
+        uses: actions/checkout@v5
         with:
           persist-credentials: true
           fetch-depth: 0
 
-      - name: Configure Git identity
-        run: |
-          set -euo pipefail
-
-          git config user.name "Imed Kablavi"
-          git config user.email "emad.info1@gmail.com"
-
       - name: Draw CYBER contribution art
         if: github.event_name == 'workflow_dispatch' && github.event.inputs.draw_cyber == 'yes'
         env:
-          START_DATE: ${{ github.event.inputs.start_date }}
-          INTENSITY: ${{ github.event.inputs.intensity }}
+          START_DATE_INPUT: ${{ github.event.inputs.start_date }}
+          INTENSITY_INPUT: ${{ github.event.inputs.intensity }}
+          CYBER_NAME: "Imed Kablavi"
+          CYBER_EMAIL: "emad.info1@gmail.com"
         run: |
           set -euo pipefail
+
+          git config user.name "$CYBER_NAME"
+          git config user.email "$CYBER_EMAIL"
 
           mkdir -p .github/contribution-art
 
           MARKER_FILE=".github/contribution-art/cyber-art-created.txt"
 
           if [ -f "$MARKER_FILE" ]; then
-            echo "CYBER art already created. Delete $MARKER_FILE if you want to regenerate it."
+            echo "CYBER art already exists. Delete $MARKER_FILE if you want to regenerate it."
             exit 0
           fi
 
@@ -71,11 +69,26 @@ jobs:
           import pathlib
           import subprocess
 
-          start = date.fromisoformat(os.environ["START_DATE"])
-          intensity = int(os.environ["INTENSITY"])
+          raw_start = os.environ.get("START_DATE_INPUT", "today").strip().lower()
+          raw_intensity = os.environ.get("INTENSITY_INPUT", "6").strip()
 
+          if raw_start in ("today", "now", ""):
+              start = date.today()
+          else:
+              start = date.fromisoformat(raw_start)
+
+          intensity = int(raw_intensity)
+
+          if intensity < 1 or intensity > 20:
+              raise SystemExit("INTENSITY must be between 1 and 20")
+
+          # Python: Monday=0 ... Sunday=6
+          # GitHub contribution graph weeks start visually from Sunday.
           if start.weekday() != 6:
-              raise SystemExit("START_DATE must be Sunday. Example: 2026-01-18")
+              days_until_sunday = (6 - start.weekday()) % 7
+              adjusted = start + timedelta(days=days_until_sunday)
+              print(f"START_DATE {start} is not Sunday. Using next Sunday: {adjusted}")
+              start = adjusted
 
           art_file = pathlib.Path(".github/contribution-art/cyber.txt")
 
@@ -139,6 +152,7 @@ jobs:
 
           print("CYBER pattern:")
           print("\n".join(rows))
+          print(f"Final start date: {start.isoformat()}")
 
           commit_count = 0
 
@@ -175,8 +189,8 @@ jobs:
 
           {
             echo "CYBER contribution art generated."
-            echo "Start date: $START_DATE"
-            echo "Intensity: $INTENSITY"
+            echo "Input start date: $START_DATE_INPUT"
+            echo "Intensity: $INTENSITY_INPUT"
             echo "Generated at: $(date -u '+%Y-%m-%d %H:%M:%S UTC')"
           } > "$MARKER_FILE"
 
@@ -187,12 +201,16 @@ jobs:
         run: |
           set -euo pipefail
 
+          # مهم: الصيانة تستخدم bot حتى ما تخرب رسم CYBER بحسابك
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
           PROJECT="${GITHUB_REPOSITORY##*/}"
           OWNER="${GITHUB_REPOSITORY%%/*}"
           DATE_UTC="$(date -u '+%Y-%m-%d %H:%M:%S UTC')"
           DAY="$(date -u '+%A')"
           WEEK="$(date -u '+%V')"
-          BRANCH="$(git rev-parse --abbrev-ref HEAD)"
+          BRANCH="${GITHUB_REF_NAME}"
           COMMIT_SHA="$(git rev-parse --short HEAD)"
           TOTAL_COMMITS="$(git rev-list --count HEAD || echo 0)"
           WEEK_COMMITS="$(git rev-list --count --since='7 days ago' HEAD || echo 0)"
@@ -232,10 +250,6 @@ jobs:
             echo "| Integrity Hash | \`$HASH\` |"
           } >> "$REPORT_FILE"
 
-      - name: Commit and push maintenance update
-        run: |
-          set -euo pipefail
-
           git add .github/maintenance/
 
           if git diff --cached --quiet; then
@@ -244,4 +258,7 @@ jobs:
             git commit -m "chore: update automated maintenance log"
           fi
 
-          git push
+      - name: Push changes
+        run: |
+          set -euo pipefail
+          git push origin "HEAD:${GITHUB_REF_NAME}"
