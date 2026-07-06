@@ -1,18 +1,33 @@
-name: Smart Repository Maintenance
+name: Cyber Smart Repository Maintenance
 
 on:
-  schedule:
-    # اختار واحد فقط من الأسطر الثلاثة:
-    # - cron: "37 * * * *"       # كل ساعة
-    - cron: "37 7,19 * * *"      # مرتين يومياً: 07:37 و 19:37 UTC
-    # - cron: "37 */4 * * *"     # كل 4 ساعات
   workflow_dispatch:
+    inputs:
+      draw_cyber:
+        description: "Draw CYBER contribution art"
+        required: true
+        default: "yes"
+        type: choice
+        options:
+          - "yes"
+          - "no"
+      start_date:
+        description: "Start date, must be Sunday. Good for 2026: 2026-01-18"
+        required: true
+        default: "2026-01-18"
+      intensity:
+        description: "Commits per green square"
+        required: true
+        default: "6"
+
+  schedule:
+    - cron: "37 7,19 * * *"
 
 permissions:
   contents: write
 
 concurrency:
-  group: smart-maintenance-${{ github.ref }}
+  group: cyber-smart-maintenance-${{ github.ref }}
   cancel-in-progress: false
 
 jobs:
@@ -25,6 +40,148 @@ jobs:
         with:
           persist-credentials: true
           fetch-depth: 0
+
+      - name: Configure Git identity
+        run: |
+          set -euo pipefail
+
+          git config user.name "Imed Kablavi"
+          git config user.email "emad.info1@gmail.com"
+
+      - name: Draw CYBER contribution art
+        if: github.event_name == 'workflow_dispatch' && github.event.inputs.draw_cyber == 'yes'
+        env:
+          START_DATE: ${{ github.event.inputs.start_date }}
+          INTENSITY: ${{ github.event.inputs.intensity }}
+        run: |
+          set -euo pipefail
+
+          mkdir -p .github/contribution-art
+
+          MARKER_FILE=".github/contribution-art/cyber-art-created.txt"
+
+          if [ -f "$MARKER_FILE" ]; then
+            echo "CYBER art already created. Delete $MARKER_FILE if you want to regenerate it."
+            exit 0
+          fi
+
+          python3 <<'PY'
+          from datetime import date, timedelta
+          import os
+          import pathlib
+          import subprocess
+
+          start = date.fromisoformat(os.environ["START_DATE"])
+          intensity = int(os.environ["INTENSITY"])
+
+          if start.weekday() != 6:
+              raise SystemExit("START_DATE must be Sunday. Example: 2026-01-18")
+
+          art_file = pathlib.Path(".github/contribution-art/cyber.txt")
+
+          letters = {
+              "C": [
+                  "1111",
+                  "1000",
+                  "1000",
+                  "1000",
+                  "1000",
+                  "1000",
+                  "1111",
+              ],
+              "Y": [
+                  "1001",
+                  "1001",
+                  "0110",
+                  "0010",
+                  "0010",
+                  "0010",
+                  "0010",
+              ],
+              "B": [
+                  "1110",
+                  "1001",
+                  "1001",
+                  "1110",
+                  "1001",
+                  "1001",
+                  "1110",
+              ],
+              "E": [
+                  "1111",
+                  "1000",
+                  "1000",
+                  "1110",
+                  "1000",
+                  "1000",
+                  "1111",
+              ],
+              "R": [
+                  "1110",
+                  "1001",
+                  "1001",
+                  "1110",
+                  "1010",
+                  "1001",
+                  "1001",
+              ],
+          }
+
+          word = "CYBER"
+          rows = [""] * 7
+
+          for index, char in enumerate(word):
+              pattern = letters[char]
+              for row in range(7):
+                  rows[row] += pattern[row]
+                  if index != len(word) - 1:
+                      rows[row] += "0"
+
+          print("CYBER pattern:")
+          print("\n".join(rows))
+
+          commit_count = 0
+
+          for col in range(len(rows[0])):
+              for row in range(7):
+                  if rows[row][col] != "1":
+                      continue
+
+                  commit_date = start + timedelta(days=(col * 7) + row)
+
+                  for i in range(intensity):
+                      art_file.parent.mkdir(parents=True, exist_ok=True)
+
+                      with art_file.open("a", encoding="utf-8") as file:
+                          file.write(f"{commit_date.isoformat()} CYBER contribution art #{i + 1}\n")
+
+                      env = os.environ.copy()
+                      stamp = f"{commit_date.isoformat()}T12:00:00+00:00"
+                      env["GIT_AUTHOR_DATE"] = stamp
+                      env["GIT_COMMITTER_DATE"] = stamp
+
+                      subprocess.run(["git", "add", str(art_file)], check=True, env=env)
+                      subprocess.run(
+                          ["git", "commit", "-m", f"art: draw CYBER {commit_date.isoformat()} #{i + 1}"],
+                          check=True,
+                          env=env,
+                          stdout=subprocess.DEVNULL,
+                      )
+
+                      commit_count += 1
+
+          print(f"Created {commit_count} CYBER art commits.")
+          PY
+
+          {
+            echo "CYBER contribution art generated."
+            echo "Start date: $START_DATE"
+            echo "Intensity: $INTENSITY"
+            echo "Generated at: $(date -u '+%Y-%m-%d %H:%M:%S UTC')"
+          } > "$MARKER_FILE"
+
+          git add "$MARKER_FILE"
+          git commit -m "chore: mark CYBER contribution art as generated"
 
       - name: Generate maintenance report
         run: |
@@ -79,15 +236,12 @@ jobs:
         run: |
           set -euo pipefail
 
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-
           git add .github/maintenance/
 
           if git diff --cached --quiet; then
             echo "No maintenance changes to commit."
-            exit 0
+          else
+            git commit -m "chore: update automated maintenance log"
           fi
 
-          git commit -m "chore: update automated maintenance log"
           git push
