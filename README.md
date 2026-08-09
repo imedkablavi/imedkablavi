@@ -2,12 +2,15 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&height=180&section=header&text=IMED%20KABLAVI&fontSize=52&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=CYBREXTECH%20%7C%20CYBERSECURITY%20%7C%20DIGITAL%20FORENSICS&descAlignY=62&descSize=16&color=0:050505,50:0b1f33,100:123b5d" width="100%"/>
 
+<img src="https://media.giphy.com/media/0ZD3GpAe7BUMLFGR5B/giphy.gif" width="220" alt="Cybersecurity hacker animation" />
+
 <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=21&duration=2800&pause=900&color=36BCF7&center=true&vCenter=true&width=850&lines=Forensic+Informatics+Engineering+Student;Cybersecurity+%7C+Digital+Forensics+%7C+OSINT;IT+Support+%26+Server+Administration;Building+AI+%C3%97+Cybersecurity+%C3%97+Software;Community+Leader+%7C+Event+Organizer+%7C+Podcast+Host" alt="Typing animation" />
 
 <br/>
 
 <img src="https://komarev.com/ghpvc/?username=imedkablavi&style=for-the-badge&color=0e7490&label=PROFILE+VIEWS" alt="Profile views" />
 <a href="https://github.com/imedkablavi?tab=followers"><img src="https://img.shields.io/github/followers/imedkablavi?style=for-the-badge&logo=github&label=FOLLOWERS&color=0e7490" alt="Followers" /></a>
+<a href="https://github.com/imedkablavi?tab=repositories"><img src="https://img.shields.io/badge/OPEN%20SOURCE-YES-0e7490?style=for-the-badge&logo=github" alt="Open source" /></a>
 
 </div>
 
@@ -99,10 +102,19 @@ An operating-system / Linux-oriented project under the CybrexTech identity.
 ## `> github --stats`
 
 <div align="center">
-<img src="https://github-readme-stats.vercel.app/api?username=imedkablavi&show_icons=true&hide_border=true&theme=transparent&title_color=36BCF7&icon_color=36BCF7&text_color=9CA3AF&include_all_commits=true" height="175" alt="GitHub stats" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=imedkablavi&layout=compact&hide_border=true&theme=transparent&title_color=36BCF7&text_color=9CA3AF&langs_count=8" height="175" alt="Top languages" />
+
+<a href="https://github.com/imedkablavi">
+<img src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=imedkablavi&show_icons=true&hide_border=true&theme=transparent&title_color=36BCF7&icon_color=36BCF7&text_color=9CA3AF&include_all_commits=true&cache_seconds=86400" height="175" alt="GitHub stats" />
+</a>
+
+<a href="https://github.com/imedkablavi?tab=repositories">
+<img src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=imedkablavi&layout=compact&hide_border=true&theme=transparent&title_color=36BCF7&text_color=9CA3AF&langs_count=8&cache_seconds=86400" height="175" alt="Top languages" />
+</a>
+
 <br/>
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=imedkablavi&hide_border=true&background=00000000&ring=36BCF7&fire=36BCF7&currStreakLabel=36BCF7&sideLabels=9CA3AF&dates=9CA3AF" alt="GitHub streak" />
+
+<img src="https://github-readme-streak-vercel.vercel.app?user=imedkablavi&theme=dark&hide_border=true" alt="GitHub streak" />
+
 </div>
 
 ---
@@ -110,7 +122,13 @@ An operating-system / Linux-oriented project under the CybrexTech identity.
 ## `> contribution --visualize`
 
 <div align="center">
-<img src="https://imedkablavi.github.io/imedkablavi/github-contribution-grid-snake-dark.svg" alt="Animated GitHub contribution snake" width="100%" />
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/imedkablavi/imedkablavi/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/imedkablavi/imedkablavi/output/github-contribution-grid-snake.svg" />
+  <img alt="Animated GitHub contribution snake" src="https://raw.githubusercontent.com/imedkablavi/imedkablavi/output/github-contribution-grid-snake.svg" width="100%" />
+</picture>
+
 </div>
 
 ---
@@ -118,7 +136,9 @@ An operating-system / Linux-oriented project under the CybrexTech identity.
 ## `> achievements`
 
 <div align="center">
-<img src="https://github-profile-trophy.vercel.app/?username=imedkablavi&theme=algolia&no-frame=true&no-bg=true&margin-w=8&row=1&column=7" alt="GitHub trophies" />
+
+<img src="https://github-profile-trophy.vercel.app/?username=imedkablavi&theme=onedark&no-frame=true&no-bg=true&margin-w=8&row=1&column=7" alt="GitHub trophies" />
+
 </div>
 
 ---
@@ -179,11 +199,13 @@ I take part in **student communities, technology events, community initiatives a
 ## `> support --cybrextech`
 
 <div align="center">
+
 If my open-source work, research, or security resources help you, consider supporting the work.
-<br/><br/>
+
 <a href="https://buymeacoffee.com/imed_kablavi"><img src="https://img.shields.io/badge/☕%20Buy%20Me%20a%20Coffee-F5C542?style=for-the-badge&logo=buymeacoffee&logoColor=111111" /></a>
-<br/><br/>
+
 **Star ⭐ • Fork 🍴 • Contribute 🤝 • Share 🚀**
+
 </div>
 
 ---
@@ -192,4 +214,5 @@ If my open-source work, research, or security resources help you, consider suppo
 <img src="https://capsule-render.vercel.app/api?type=waving&height=120&section=footer&color=0:123b5d,50:0b1f33,100:050505" width="100%"/>
 
 `SECURE • INVESTIGATE • BUILD • LEARN`
+
 </div>
