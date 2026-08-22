@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="230" viewBox="0 0 500 230">
+<defs><linearGradient id="g" x1="0" x2="1"><stop stop-color="#071018"/><stop offset="1" stop-color="#0d1720"/></linearGradient></defs>
+<rect x="1" y="1" width="498" height="228" rx="14" fill="url(#g)" stroke="#263b48"/>
+<text x="24" y="38" fill="#36bcf7" font-family="monospace" font-size="20" font-weight="700">GitHub / profile metrics</text>
+<text x="28" y="82" fill="#9ca3af" font-family="sans-serif" font-size="15">Public Repositories</text><text x="455" y="82" text-anchor="end" fill="#e5e7eb" font-family="monospace" font-size="17" font-weight="700">18</text><text x="28" y="116" fill="#9ca3af" font-family="sans-serif" font-size="15">Followers</text><text x="455" y="116" text-anchor="end" fill="#e5e7eb" font-family="monospace" font-size="17" font-weight="700">18</text><text x="28" y="150" fill="#9ca3af" font-family="sans-serif" font-size="15">Total Stars</text><text x="455" y="150" text-anchor="end" fill="#e5e7eb" font-family="monospace" font-size="17" font-weight="700">19</text><text x="28" y="184" fill="#9ca3af" font-family="sans-serif" font-size="15">Total Forks</text><text x="455" y="184" text-anchor="end" fill="#e5e7eb" font-family="monospace" font-size="17" font-weight="700">3</text>
+</svg>
