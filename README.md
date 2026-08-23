@@ -1,118 +1,216 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=180&section=header&text=IMED%20KABLAVI&fontSize=52&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=CYBREXTECH%20%7C%20CYBERSECURITY%20%7C%20DIGITAL%20FORENSICS&descAlignY=62&descSize=16&color=0:050505,50:0b1f33,100:123b5d" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&height=190&section=header&text=IMED%20KABLAVI&fontSize=52&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=CYBREXTECH%20%7C%20CYBERSECURITY%20%7C%20DIGITAL%20FORENSICS&descAlignY=59&descSize=16&color=0:050505,50:0b1f33,100:123b5d" width="100%" alt="Imed Kablavi profile header" />
 
-<a href="https://github.com/imedkablavi"><img src="https://raw.githubusercontent.com/imedkablavi/imedkablavi/main/assets/cyber-terminal.svg" width="900" alt="Animated cybersecurity terminal" /></a>
+### `CYBERSECURITY × DIGITAL FORENSICS × OPEN SOURCE`
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=21&duration=2800&pause=900&color=36BCF7&center=true&vCenter=true&width=850&lines=Forensic+Informatics+Engineering+Student;Cybersecurity+%7C+Digital+Forensics+%7C+OSINT;IT+Support+%26+Server+Administration;Building+AI+%C3%97+Cybersecurity+%C3%97+Software;Community+Leader+%7C+Event+Organizer+%7C+Podcast+Host" alt="Typing animation" />
+**I build practical tools for security, forensic investigation, OSINT, Linux, automation and developer workflows.**
+
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=19&duration=2600&pause=850&color=36BCF7&center=true&vCenter=true&width=880&lines=Security+tools+that+solve+real+problems;Forensic+workflows+with+evidence+in+mind;Open-source+OSINT+%26+Linux+projects;Building%2C+testing%2C+documenting%2C+shipping" alt="Profile focus animation" />
 
 <br/>
 
+<a href="https://github.com/imedkablavi?tab=repositories"><img src="https://img.shields.io/badge/EXPLORE-PROJECTS-0e7490?style=for-the-badge&logo=github&logoColor=white" alt="Explore projects" /></a>
+<a href="https://github.com/imedkablavi"><img src="https://img.shields.io/badge/FOLLOW-FOR%20NEW%20BUILDS-36BCF7?style=for-the-badge&logo=github&logoColor=111111" alt="Follow for new builds" /></a>
+<a href="https://github.com/imedkablavi?tab=followers"><img src="https://img.shields.io/github/followers/imedkablavi?style=for-the-badge&logo=github&label=FOLLOWERS&color=0e7490" alt="GitHub followers" /></a>
 <img src="https://komarev.com/ghpvc/?username=imedkablavi&style=for-the-badge&color=0e7490&label=PROFILE+VIEWS" alt="Profile views" />
-<a href="https://github.com/imedkablavi?tab=followers"><img src="https://img.shields.io/github/followers/imedkablavi?style=for-the-badge&logo=github&label=FOLLOWERS&color=0e7490" alt="Followers" /></a>
-<a href="https://github.com/imedkablavi?tab=repositories"><img src="https://img.shields.io/badge/OPEN%20SOURCE-YES-0e7490?style=for-the-badge&logo=github" alt="Open source" /></a>
+
+<br/><br/>
+
+<sub><b>FOLLOW FOR</b> · security tooling · digital forensics · OSINT resources · Linux utilities · open-source experiments</sub>
 
 </div>
 
 ---
 
-## `> whoami`
-
-```text
-┌──────────────────────────────────────────────────────────────┐
-│  IMED KABLAVI / CYBREXTECH                                  │
-├──────────────────────────────────────────────────────────────┤
-│  🎓  Forensic Informatics Engineering — Fırat University     │
-│  🔐  Cybersecurity / Digital Forensics                       │
-│  🖥️  IT Support & Server Administration                     │
-│  🕵️  OSINT / Cybercrime Investigation                       │
-│  🤖  AI × Cybersecurity × Software Engineering               │
-│  🎤  Community Leader / Event Organizer / Podcast Host       │
-└──────────────────────────────────────────────────────────────┘
-```
-
-> **I build, secure, investigate, and automate.**
-
-I'm a **2nd-year Forensic Informatics Engineering student at Fırat University** with **3+ years of cybersecurity experience** and **6+ years working with IT support and server administration**. My work sits between security engineering, digital investigation, infrastructure, and software development.
-
----
-
-## `> focus --current`
+## `> selected-work --flagship`
 
 <div align="center">
 
-| 🔐 Cybersecurity | 🕵️ Digital Forensics | 🌐 Infrastructure | 🤖 AI & Engineering |
-|:---:|:---:|:---:|:---:|
-| Security Research | Cybercrime | Linux / Servers | AI × Security |
-| Web Security | Evidence & Analysis | Networking | Automation |
-| Security Awareness | OSINT | IT Support | Computer Vision |
+### BUILT TO BE USED — NOT JUST DISPLAYED
+
+<sub>Selected projects that best represent what I build across security, forensics, infrastructure and applied software.</sub>
 
 </div>
 
----
+<br/>
 
-## `> featured-projects`
+<table>
+<tr>
+<td width="50%" valign="top">
 
 ### 🕵️ [OSINT Roadmap](https://github.com/imedkablavi/OSINT-Roadmap)
-A practical and ethical roadmap for learning **Open Source Intelligence**, covering investigation workflows, verification, evidence handling, reporting, case studies, and professional practice.
 
-`OSINT` `Cybersecurity` `Digital Forensics` `Investigation`
+A multilingual, method-first **Open Source Intelligence framework** for learning investigation workflows, verification, evidence handling and professional OSINT practice.
+
+<a href="https://github.com/imedkablavi/OSINT-Roadmap"><img src="https://img.shields.io/github/stars/imedkablavi/OSINT-Roadmap?style=flat-square&logo=github&color=36BCF7" alt="OSINT Roadmap stars" /></a>
+<a href="https://github.com/imedkablavi/OSINT-Roadmap"><img src="https://img.shields.io/badge/EN%20%7C%20AR%20%7C%20TR-MULTILINGUAL-0e7490?style=flat-square" alt="Multilingual" /></a>
+
+`OSINT` `Investigation` `Forensics` `Research`
+
+**Why it matters:** turns a large tool ecosystem into structured investigation paths instead of a random list of links.
+
+</td>
+<td width="50%" valign="top">
+
+### 🔬 [Vidrensic](https://github.com/imedkablavi/vidrensic)
+
+A forensic-first platform for **DVR/NVR storage reconstruction, CCTV triage and video recovery**, designed around read-only handling, validation and auditable evidence workflows.
+
+<a href="https://github.com/imedkablavi/vidrensic"><img src="https://img.shields.io/github/stars/imedkablavi/vidrensic?style=flat-square&logo=github&color=36BCF7" alt="Vidrensic stars" /></a>
+<a href="https://github.com/imedkablavi/vidrensic"><img src="https://img.shields.io/badge/FORENSIC-FIRST-VALIDATION-0e7490?style=flat-square" alt="Forensic first" /></a>
+
+`Digital Forensics` `CCTV` `Recovery` `Python`
+
+**Why it matters:** focuses on evidence reconstruction and confidence, not just media extraction.
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
 
 ### 🩺 [DevDoctor](https://github.com/imedkablavi/DevDoctor)
-A Linux workstation bootstrap and repair CLI that inventories developer tools, detects broken setups, explains problems, and generates safe install / repair plans.
 
-`Python` `Linux` `CLI` `DevOps` `Automation`
+A modern Linux workstation bootstrap and repair CLI that inventories developer tools, detects broken setups, explains problems and produces safer installation or repair plans.
+
+<a href="https://github.com/imedkablavi/DevDoctor"><img src="https://img.shields.io/github/stars/imedkablavi/DevDoctor?style=flat-square&logo=github&color=36BCF7" alt="DevDoctor stars" /></a>
+<a href="https://github.com/imedkablavi/DevDoctor"><img src="https://img.shields.io/badge/LINUX-DEVELOPER%20TOOLING-0e7490?style=flat-square&logo=linux&logoColor=white" alt="Linux developer tooling" /></a>
+
+`Linux` `Python` `CLI` `DevOps` `Automation`
+
+**Why it matters:** makes workstation diagnosis understandable before making system changes.
+
+</td>
+<td width="50%" valign="top">
 
 ### 👻 [Ghosty Input](https://github.com/imedkablavi/ghosty_input)
-Computer-vision experimentation around **hand-gesture mouse control** and a **desk-surface virtual keyboard**.
 
-`Python` `Computer Vision` `OpenCV` `AI`
+Touch-free interaction experiments using **computer vision**: hand-gesture mouse control plus a desk-surface virtual keyboard with camera-based calibration.
+
+<a href="https://github.com/imedkablavi/ghosty_input"><img src="https://img.shields.io/github/stars/imedkablavi/ghosty_input?style=flat-square&logo=github&color=36BCF7" alt="Ghosty Input stars" /></a>
+<a href="https://github.com/imedkablavi/ghosty_input"><img src="https://img.shields.io/badge/COMPUTER%20VISION-GESTURE%20CONTROL-0e7490?style=flat-square" alt="Computer vision gesture control" /></a>
+
+`OpenCV` `Computer Vision` `HCI` `Python`
+
+**Why it matters:** explores practical human-computer interaction beyond the standard mouse and keyboard.
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
 
 ### 🛡️ [Web Vulnerability Scanner](https://github.com/imedkablavi/web-vuln-scanner)
-An authorized web security scanner for crawling, posture checks, exposed files, API discovery, DNS/TLS inventory, SQLi checks, and access-control verification.
 
-`Python` `Web Security` `Security Testing` `Playwright`
+An **authorized-target** web security scanner with scoped crawling, posture checks, API discovery, DNS/TLS inventory, evidence-oriented findings and active checks where explicitly enabled.
 
-### 🧠 [AI Agent](https://github.com/imedkablavi/agentai)
-Exploring practical AI-agent workflows and automation.
+<a href="https://github.com/imedkablavi/web-vuln-scanner"><img src="https://img.shields.io/github/stars/imedkablavi/web-vuln-scanner?style=flat-square&logo=github&color=36BCF7" alt="Web Vulnerability Scanner stars" /></a>
+<a href="https://github.com/imedkablavi/web-vuln-scanner"><img src="https://img.shields.io/badge/SECURITY-AUTHORIZED%20TESTING-0e7490?style=flat-square" alt="Authorized security testing" /></a>
 
-`AI` `Agents` `Automation`
+`Web Security` `Python` `Playwright` `SARIF`
 
-### 🐧 [cybrexOS](https://github.com/imedkablavi/cybrexOS)
-An operating-system / Linux-oriented project under the CybrexTech identity.
+**Why it matters:** prioritizes controlled scope, evidence and lower-noise security testing.
 
-`Linux` `Systems` `CybrexTech`
+</td>
+<td width="50%" valign="top">
 
----
+### 🔏 [Social Media Deletion Guide](https://github.com/imedkablavi/Social-Media-Deletion-Guide)
 
-## `> tech --stack`
+A multilingual privacy guide for deleting accounts and data across social, online and AI services using first-party provider instructions and searchable static pages.
+
+<a href="https://github.com/imedkablavi/Social-Media-Deletion-Guide"><img src="https://img.shields.io/github/stars/imedkablavi/Social-Media-Deletion-Guide?style=flat-square&logo=github&color=36BCF7" alt="Social Media Deletion Guide stars" /></a>
+<a href="https://github.com/imedkablavi/Social-Media-Deletion-Guide"><img src="https://img.shields.io/badge/PRIVACY-MULTILINGUAL-0e7490?style=flat-square" alt="Privacy multilingual guide" /></a>
+
+`Privacy` `Data Deletion` `Web` `Open Source`
+
+**Why it matters:** makes account-deletion and data-removal instructions easier to find and compare.
+
+</td>
+</tr>
+</table>
 
 <div align="center">
-<img src="https://skillicons.dev/icons?i=python,java,js,ts,php,react,nextjs,nodejs,fastapi,tailwind,flutter,kotlin,postgres,mysql,sqlite,redis,linux,bash,git,github,docker,podman" />
+
+<a href="https://github.com/imedkablavi?tab=repositories"><img src="https://img.shields.io/badge/VIEW%20ALL%20REPOSITORIES-050505?style=for-the-badge&logo=github&logoColor=36BCF7" alt="View all repositories" /></a>
+
 </div>
-
-**Security / Systems:** `Linux` `Networking` `Server Administration` `Nmap` `OSINT` `Web Security` `Digital Forensics` `Git` `Bash`
-
-**Development:** `Python` `TypeScript` `JavaScript` `React` `Next.js` `Node.js` `FastAPI` `PHP` `Java`
-
-**Data / Infrastructure:** `PostgreSQL` `MySQL` `SQLite` `Redis` `Docker` `Podman`
 
 ---
 
-## `> github --stats`
+## `> build-queue --active`
+
+<div align="center">
+
+| `VOICE / AUDIO` | `DESKTOP / PRESENCE` | `SYSTEMS / SECURITY` |
+|:---:|:---:|:---:|
+| **[OxShift](https://github.com/imedkablavi/oxshift)** | **[Discord Rich Presence](https://github.com/imedkablavi/discord-rich-presence)** | **[cybrexOS](https://github.com/imedkablavi/cybrexOS)** |
+| Local-first voice studio, soundboard and real-time voice tooling | Privacy-first Linux / Windows rich presence with context detection | Debian-based Linux / VM engineering and hardening experiments |
+
+</div>
+
+> New builds usually start as a problem I want solved for myself — then I turn them into something other people can inspect, test and improve.
+
+---
+
+## `> identity --signal`
+
+<a href="https://github.com/imedkablavi"><img src="https://raw.githubusercontent.com/imedkablavi/imedkablavi/main/assets/cyber-terminal.svg" width="100%" alt="Animated cybersecurity terminal" /></a>
+
+<table>
+<tr>
+<td width="58%" valign="top">
+
+### `whoami`
+
+I'm **Imed Kablavi / CybrexTech**, a Forensic Informatics Engineering student working across **cybersecurity, digital forensics, Linux infrastructure and software engineering**.
+
+My projects tend to sit where investigation meets engineering: tools that collect or validate evidence, automate repetitive technical work, improve system visibility, or make difficult workflows easier to use.
+
+```text
+SECURE      → understand attack surface and reduce risk
+INVESTIGATE → preserve context, evidence and reproducibility
+BUILD       → turn repeated problems into usable tools
+SHARE       → document the work so others can learn from it
+```
+
+</td>
+<td width="42%" valign="top">
+
+### `operating-context`
+
+- 🎓 Forensic Informatics Engineering
+- 🔐 Cybersecurity & security tooling
+- 🔬 Digital forensics & evidence workflows
+- 🕵️ OSINT & investigation methodology
+- 🐧 Linux, servers & infrastructure
+- 🤖 AI-assisted tooling & automation
+- 👁️ Computer vision experiments
+- 🤝 Open-source & technical communities
+
+</td>
+</tr>
+</table>
+
+---
+
+## `> github --proof`
 
 <div align="center">
 
 <a href="https://github.com/imedkablavi"><img src="https://raw.githubusercontent.com/imedkablavi/imedkablavi/output/github-stats.svg" width="495" alt="GitHub profile metrics" /></a>
 <a href="https://github.com/imedkablavi?tab=repositories"><img src="https://raw.githubusercontent.com/imedkablavi/imedkablavi/output/top-languages.svg" width="495" alt="Top languages" /></a>
 
-</div>
+<br/>
 
-> These cards are generated by my own GitHub Action from GitHub's API, so they don't depend on a public stats server.
+<a href="https://github.com/imedkablavi?tab=repositories"><img src="https://img.shields.io/github/stars/imedkablavi?style=for-the-badge&logo=github&label=REPOSITORY%20STARS&color=36BCF7" alt="Repository stars" /></a>
+<a href="https://github.com/imedkablavi?tab=followers"><img src="https://img.shields.io/github/followers/imedkablavi?style=for-the-badge&logo=github&label=FOLLOWERS&color=36BCF7" alt="Followers" /></a>
+
+<sub>Stats cards are generated by my own GitHub Action from GitHub's API.</sub>
+
+</div>
 
 ---
 
-## `> contribution --visualize`
+## `> contribution --timeline`
 
 <div align="center">
 
@@ -126,58 +224,78 @@ An operating-system / Linux-oriented project under the CybrexTech identity.
 
 ---
 
-## `> github --highlights`
+## `> stack --core`
 
 <div align="center">
 
-<a href="https://github.com/imedkablavi?tab=repositories"><img src="https://img.shields.io/github/stars/imedkablavi?style=for-the-badge&logo=github&label=REPOSITORY%20STARS&color=36BCF7" /></a>
-<a href="https://github.com/imedkablavi?tab=followers"><img src="https://img.shields.io/github/followers/imedkablavi?style=for-the-badge&logo=github&label=FOLLOWERS&color=36BCF7" /></a>
-<a href="https://github.com/imedkablavi?tab=repositories"><img src="https://img.shields.io/github/commit-activity/y/imedkablavi/imedkablavi?style=for-the-badge&label=PROFILE%20ACTIVITY&color=36BCF7" /></a>
+<img src="https://skillicons.dev/icons?i=python,java,js,ts,react,nextjs,nodejs,fastapi,postgres,sqlite,redis,linux,bash,git,github,docker" alt="Core technology stack" />
+
+<br/><br/>
+
+`PYTHON` · `LINUX` · `BASH` · `FASTAPI` · `TYPESCRIPT` · `JAVASCRIPT` · `GIT` · `DOCKER`
+
+`DIGITAL FORENSICS` · `OSINT` · `WEB SECURITY` · `NETWORKING` · `SERVER ADMINISTRATION`
 
 </div>
 
-No external trophy image here — only reliable GitHub/Shield badges, so the profile doesn't show broken-image placeholders.
+---
+
+## `> principles --engineering`
+
+<table>
+<tr>
+<td align="center" width="25%">
+
+### `01`
+**USEFUL**
+
+Solve a real workflow.
+
+</td>
+<td align="center" width="25%">
+
+### `02`
+**AUDITABLE**
+
+Make behavior inspectable.
+
+</td>
+<td align="center" width="25%">
+
+### `03`
+**SAFE**
+
+Prefer explicit boundaries.
+
+</td>
+<td align="center" width="25%">
+
+### `04`
+**OPEN**
+
+Document and share the work.
+
+</td>
+</tr>
+</table>
+
+<div align="center">
+
+> **Understand the system. Secure what matters. Investigate what happened. Build what is missing. Share what you learn.**
+
+</div>
 
 ---
 
-## `> currently --building`
+## `> community --beyond-code`
 
-```diff
-+ Security tooling & automation
-+ Digital forensics learning projects
-+ OSINT resources and investigation workflows
-+ AI-assisted developer/security tools
-+ Linux & infrastructure tooling
-+ Community-oriented technology projects
-```
+<div align="center">
 
----
+I also take part in **student communities, technology events and knowledge-sharing activities** around cybersecurity, programming, AI and practical technology skills.
 
-## `> community --mode`
+**Community Leadership** · **Podcasting** · **Events** · **Open Source** · **Technical Knowledge Sharing**
 
-Technology is more useful when knowledge is shared.
-
-I take part in **student communities, technology events, community initiatives and knowledge-sharing activities**, with a focus on helping people discover cybersecurity, programming, AI, and practical technology skills.
-
-🎤 **Community Leader**  •  🎙️ **Podcast Host**  •  🎪 **Event Organizer**  •  🤝 **Open-source Contributor**
-
----
-
-## `> philosophy`
-
-```text
-┌─────────────────────────────────────────────────────────────┐
-│                                                             │
-│  Understand the system.                                     │
-│  Secure what matters.                                       │
-│  Investigate what happened.                                 │
-│  Build what is missing.                                     │
-│  Share what you learn.                                      │
-│                                                             │
-└─────────────────────────────────────────────────────────────┘
-```
-
-> **Cybersecurity is not only about breaking systems.** It's about understanding them deeply enough to protect, investigate, and improve them.
+</div>
 
 ---
 
@@ -208,8 +326,15 @@ If my open-source work, research, or security resources help you, consider suppo
 ---
 
 <div align="center">
-<img src="https://capsule-render.vercel.app/api?type=waving&height=120&section=footer&color=0:123b5d,50:0b1f33,100:050505" width="100%"/>
 
-`SECURE • INVESTIGATE • BUILD • LEARN`
+### `FOLLOW THE BUILD`
+
+Security tooling · Forensics · OSINT · Linux · Open Source
+
+<a href="https://github.com/imedkablavi"><img src="https://img.shields.io/badge/FOLLOW%20%40imedkablavi-36BCF7?style=for-the-badge&logo=github&logoColor=111111" alt="Follow imedkablavi" /></a>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&height=125&section=footer&color=0:123b5d,50:0b1f33,100:050505" width="100%" alt="Profile footer" />
+
+`SECURE • INVESTIGATE • BUILD • SHARE`
 
 </div>
