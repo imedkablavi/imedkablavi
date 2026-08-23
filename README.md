@@ -4,7 +4,7 @@
 
 ### `CYBERSECURITY × DIGITAL FORENSICS × OPEN SOURCE`
 
-**I build practical tools for security, forensic investigation, OSINT, Linux, automation and developer workflows.**
+**I build practical tools for security, forensic investigation, OSINT, Linux, automation and applied desktop software.**
 
 <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=19&duration=2600&pause=850&color=36BCF7&center=true&vCenter=true&width=880&lines=Security+tools+that+solve+real+problems;Forensic+workflows+with+evidence+in+mind;Open-source+OSINT+%26+Linux+projects;Building%2C+testing%2C+documenting%2C+shipping" alt="Profile focus animation" />
 
@@ -17,7 +17,7 @@
 
 <br/><br/>
 
-<sub><b>FOLLOW FOR</b> · security tooling · digital forensics · OSINT resources · Linux utilities · open-source experiments</sub>
+<sub><b>FOLLOW FOR</b> · security tooling · digital forensics · OSINT resources · Linux utilities · privacy-first desktop software</sub>
 
 </div>
 
@@ -29,7 +29,7 @@
 
 ### BUILT TO BE USED — NOT JUST DISPLAYED
 
-<sub>Selected projects that best represent what I build across security, forensics, infrastructure and applied software.</sub>
+<sub>A focused selection of the projects that best represent my work.</sub>
 
 </div>
 
@@ -48,7 +48,7 @@ A multilingual, method-first **Open Source Intelligence framework** for learning
 
 `OSINT` `Investigation` `Forensics` `Research`
 
-**Why it matters:** turns a large tool ecosystem into structured investigation paths instead of a random list of links.
+**Focus:** structured learning paths, investigation playbooks, curated resources and practical research workflows.
 
 </td>
 <td width="50%" valign="top">
@@ -62,7 +62,7 @@ A forensic-first platform for **DVR/NVR storage reconstruction, CCTV triage and 
 
 `Digital Forensics` `CCTV` `Recovery` `Python`
 
-**Why it matters:** focuses on evidence reconstruction and confidence, not just media extraction.
+**Focus:** evidence reconstruction, explicit confidence states, reproducible workflows and validation.
 
 </td>
 </tr>
@@ -71,44 +71,14 @@ A forensic-first platform for **DVR/NVR storage reconstruction, CCTV triage and 
 
 ### 🩺 [DevDoctor](https://github.com/imedkablavi/DevDoctor)
 
-A modern Linux workstation bootstrap and repair CLI that inventories developer tools, detects broken setups, explains problems and produces safer installation or repair plans.
+A Linux workstation bootstrap and repair CLI that inventories developer tools, detects broken setups, explains problems and produces safer installation or repair plans.
 
 <a href="https://github.com/imedkablavi/DevDoctor"><img src="https://img.shields.io/github/stars/imedkablavi/DevDoctor?style=flat-square&logo=github&color=36BCF7" alt="DevDoctor stars" /></a>
 <a href="https://github.com/imedkablavi/DevDoctor"><img src="https://img.shields.io/badge/LINUX-DEVELOPER%20TOOLING-0e7490?style=flat-square&logo=linux&logoColor=white" alt="Linux developer tooling" /></a>
 
 `Linux` `Python` `CLI` `DevOps` `Automation`
 
-**Why it matters:** makes workstation diagnosis understandable before making system changes.
-
-</td>
-<td width="50%" valign="top">
-
-### 👻 [Ghosty Input](https://github.com/imedkablavi/ghosty_input)
-
-Touch-free interaction experiments using **computer vision**: hand-gesture mouse control plus a desk-surface virtual keyboard with camera-based calibration.
-
-<a href="https://github.com/imedkablavi/ghosty_input"><img src="https://img.shields.io/github/stars/imedkablavi/ghosty_input?style=flat-square&logo=github&color=36BCF7" alt="Ghosty Input stars" /></a>
-<a href="https://github.com/imedkablavi/ghosty_input"><img src="https://img.shields.io/badge/COMPUTER%20VISION-GESTURE%20CONTROL-0e7490?style=flat-square" alt="Computer vision gesture control" /></a>
-
-`OpenCV` `Computer Vision` `HCI` `Python`
-
-**Why it matters:** explores practical human-computer interaction beyond the standard mouse and keyboard.
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### 🛡️ [Web Vulnerability Scanner](https://github.com/imedkablavi/web-vuln-scanner)
-
-An **authorized-target** web security scanner with scoped crawling, posture checks, API discovery, DNS/TLS inventory, evidence-oriented findings and active checks where explicitly enabled.
-
-<a href="https://github.com/imedkablavi/web-vuln-scanner"><img src="https://img.shields.io/github/stars/imedkablavi/web-vuln-scanner?style=flat-square&logo=github&color=36BCF7" alt="Web Vulnerability Scanner stars" /></a>
-<a href="https://github.com/imedkablavi/web-vuln-scanner"><img src="https://img.shields.io/badge/SECURITY-AUTHORIZED%20TESTING-0e7490?style=flat-square" alt="Authorized security testing" /></a>
-
-`Web Security` `Python` `Playwright` `SARIF`
-
-**Why it matters:** prioritizes controlled scope, evidence and lower-noise security testing.
+**Focus:** diagnosis before modification, distro-aware tooling, repair planning and developer workstation reliability.
 
 </td>
 <td width="50%" valign="top">
@@ -122,7 +92,67 @@ A multilingual privacy guide for deleting accounts and data across social, onlin
 
 `Privacy` `Data Deletion` `Web` `Open Source`
 
-**Why it matters:** makes account-deletion and data-removal instructions easier to find and compare.
+**Focus:** clear first-party deletion guidance, multilingual access, searchability and privacy education.
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 🎮 [Discord Rich Presence](https://github.com/imedkablavi/discord-rich-presence)
+
+A **privacy-first Discord Rich Presence** project for Linux and Windows with app, browser, game, media and terminal context detection plus a local companion architecture.
+
+<a href="https://github.com/imedkablavi/discord-rich-presence"><img src="https://img.shields.io/github/stars/imedkablavi/discord-rich-presence?style=flat-square&logo=github&color=36BCF7" alt="Discord Rich Presence stars" /></a>
+<a href="https://github.com/imedkablavi/discord-rich-presence"><img src="https://img.shields.io/badge/PRIVACY-DESKTOP%20INTEGRATION-0e7490?style=flat-square" alt="Privacy desktop integration" /></a>
+
+`Python` `Discord` `Linux` `Windows` `Desktop`
+
+**Focus:** reliable context detection, reconnect behavior, privacy boundaries and cross-platform desktop integration.
+
+</td>
+<td width="50%" valign="top">
+
+### 👻 [Ghosty Input](https://github.com/imedkablavi/ghosty_input)
+
+Touch-free interaction using **computer vision**: hand-gesture mouse control plus a desk-surface virtual keyboard with camera-based calibration.
+
+<a href="https://github.com/imedkablavi/ghosty_input"><img src="https://img.shields.io/github/stars/imedkablavi/ghosty_input?style=flat-square&logo=github&color=36BCF7" alt="Ghosty Input stars" /></a>
+<a href="https://github.com/imedkablavi/ghosty_input"><img src="https://img.shields.io/badge/COMPUTER%20VISION-GESTURE%20CONTROL-0e7490?style=flat-square" alt="Computer vision gesture control" /></a>
+
+`OpenCV` `Computer Vision` `HCI` `Python`
+
+**Focus:** practical camera-based interaction, calibration, gesture reliability and desktop usability.
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 🛡️ [Web Vulnerability Scanner](https://github.com/imedkablavi/web-vuln-scanner)
+
+An **authorized-target** web security scanner with scoped crawling, posture checks, API discovery, DNS/TLS inventory, evidence-oriented findings and explicitly controlled active checks.
+
+<a href="https://github.com/imedkablavi/web-vuln-scanner"><img src="https://img.shields.io/github/stars/imedkablavi/web-vuln-scanner?style=flat-square&logo=github&color=36BCF7" alt="Web Vulnerability Scanner stars" /></a>
+<a href="https://github.com/imedkablavi/web-vuln-scanner"><img src="https://img.shields.io/badge/SECURITY-AUTHORIZED%20TESTING-0e7490?style=flat-square" alt="Authorized security testing" /></a>
+
+`Web Security` `Python` `Playwright` `SARIF`
+
+**Focus:** controlled scope, evidence quality, reproducible findings and lower-noise security testing.
+
+</td>
+<td width="50%" valign="top">
+
+### 🎙️ [OxShift](https://github.com/imedkablavi/oxshift)
+
+A **local-first desktop voice studio and real-time voice changer** with soundboard workflows, virtual-mic routing, recording, profiles, diagnostics and experimental local AI voice support.
+
+<a href="https://github.com/imedkablavi/oxshift"><img src="https://img.shields.io/github/stars/imedkablavi/oxshift?style=flat-square&logo=github&color=36BCF7" alt="OxShift stars" /></a>
+<a href="https://github.com/imedkablavi/oxshift"><img src="https://img.shields.io/badge/LOCAL--FIRST-REALTIME%20AUDIO-0e7490?style=flat-square" alt="Local first realtime audio" /></a>
+
+`Python` `Audio` `Desktop` `Soundboard` `Local AI`
+
+**Focus:** real-time audio reliability, low-latency processing, privacy and a usable desktop studio experience.
 
 </td>
 </tr>
@@ -133,21 +163,6 @@ A multilingual privacy guide for deleting accounts and data across social, onlin
 <a href="https://github.com/imedkablavi?tab=repositories"><img src="https://img.shields.io/badge/VIEW%20ALL%20REPOSITORIES-050505?style=for-the-badge&logo=github&logoColor=36BCF7" alt="View all repositories" /></a>
 
 </div>
-
----
-
-## `> build-queue --active`
-
-<div align="center">
-
-| `VOICE / AUDIO` | `DESKTOP / PRESENCE` | `SYSTEMS / SECURITY` |
-|:---:|:---:|:---:|
-| **[OxShift](https://github.com/imedkablavi/oxshift)** | **[Discord Rich Presence](https://github.com/imedkablavi/discord-rich-presence)** | **[cybrexOS](https://github.com/imedkablavi/cybrexOS)** |
-| Local-first voice studio, soundboard and real-time voice tooling | Privacy-first Linux / Windows rich presence with context detection | Debian-based Linux / VM engineering and hardening experiments |
-
-</div>
-
-> New builds usually start as a problem I want solved for myself — then I turn them into something other people can inspect, test and improve.
 
 ---
 
@@ -184,6 +199,7 @@ SHARE       → document the work so others can learn from it
 - 🐧 Linux, servers & infrastructure
 - 🤖 AI-assisted tooling & automation
 - 👁️ Computer vision experiments
+- 🎙️ Real-time audio & desktop tooling
 - 🤝 Open-source & technical communities
 
 </td>
@@ -329,7 +345,7 @@ If my open-source work, research, or security resources help you, consider suppo
 
 ### `FOLLOW THE BUILD`
 
-Security tooling · Forensics · OSINT · Linux · Open Source
+Security tooling · Forensics · OSINT · Linux · Desktop Software · Open Source
 
 <a href="https://github.com/imedkablavi"><img src="https://img.shields.io/badge/FOLLOW%20%40imedkablavi-36BCF7?style=for-the-badge&logo=github&logoColor=111111" alt="Follow imedkablavi" /></a>
 
