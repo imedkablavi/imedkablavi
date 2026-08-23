@@ -23,6 +23,73 @@
 
 ---
 
+## `> now --shipping`
+
+<div align="center">
+
+### CURRENT BUILD FOCUS
+
+<sub>Projects receiving active product, reliability, release or validation work.</sub>
+
+</div>
+
+<table>
+<tr>
+<td width="25%" align="center" valign="top">
+
+### 🕵️ OSINT Roadmap
+
+**Discovery & learning**
+
+Tool Finder · multilingual content · QA · SEO · contributor workflow
+
+<a href="https://github.com/imedkablavi/OSINT-Roadmap"><img src="https://img.shields.io/badge/OPEN-PROJECT-0e7490?style=flat-square&logo=github" alt="Open OSINT Roadmap" /></a>
+
+</td>
+<td width="25%" align="center" valign="top">
+
+### 👻 Ghosty Input
+
+**Computer vision HCI**
+
+Gesture reliability · calibration · camera handling · Linux/Windows productization
+
+<a href="https://github.com/imedkablavi/ghosty_input"><img src="https://img.shields.io/badge/OPEN-PROJECT-0e7490?style=flat-square&logo=github" alt="Open Ghosty Input" /></a>
+
+</td>
+<td width="25%" align="center" valign="top">
+
+### 🎙️ OxShift
+
+**Realtime audio**
+
+Voice studio · soundboard · routing · latency · local-first AI workflows
+
+<a href="https://github.com/imedkablavi/oxshift"><img src="https://img.shields.io/badge/OPEN-PROJECT-0e7490?style=flat-square&logo=github" alt="Open OxShift" /></a>
+
+</td>
+<td width="25%" align="center" valign="top">
+
+### 🎮 Discord Rich Presence
+
+**Desktop integration**
+
+Cross-platform packaging · reconnect behavior · updater design · privacy QA
+
+<a href="https://github.com/imedkablavi/discord-rich-presence"><img src="https://img.shields.io/badge/OPEN-PROJECT-0e7490?style=flat-square&logo=github" alt="Open Discord Rich Presence" /></a>
+
+</td>
+</tr>
+</table>
+
+<div align="center">
+
+`BUILD → TEST → HARDEN → DOCUMENT → SHIP`
+
+</div>
+
+---
+
 ## `> selected-work --flagship`
 
 <div align="center">
@@ -163,6 +230,77 @@ A **local-first desktop voice studio and real-time voice changer** with soundboa
 <a href="https://github.com/imedkablavi?tab=repositories"><img src="https://img.shields.io/badge/VIEW%20ALL%20REPOSITORIES-050505?style=for-the-badge&logo=github&logoColor=36BCF7" alt="View all repositories" /></a>
 
 </div>
+
+---
+
+## `> showcase --visual`
+
+<div align="center">
+
+### SEE THE WORK — NOT JUST THE REPOSITORY NAMES
+
+<sub>Real project visuals pulled directly from the projects shown below.</sub>
+
+</div>
+
+<table>
+<tr>
+<td width="50%" align="center" valign="top">
+
+### 🕵️ OSINT Roadmap — Investigation Workflow
+
+<a href="https://github.com/imedkablavi/OSINT-Roadmap">
+<img src="https://raw.githubusercontent.com/imedkablavi/OSINT-Roadmap/main/assets/osint-workflow.svg" width="100%" alt="OSINT Roadmap investigation workflow" />
+</a>
+
+**Method-first OSINT instead of a random tool dump.**
+
+<a href="https://github.com/imedkablavi/OSINT-Roadmap"><img src="https://img.shields.io/badge/EXPLORE-OSINT%20ROADMAP-36BCF7?style=flat-square&logo=github&logoColor=111111" alt="Explore OSINT Roadmap" /></a>
+
+</td>
+<td width="50%" align="center" valign="top">
+
+### 👻 Ghosty Input — Control Dashboard
+
+<a href="https://github.com/imedkablavi/ghosty_input">
+<img src="https://raw.githubusercontent.com/imedkablavi/ghosty_input/main/assets/screenshots/dashboard.png" width="100%" alt="Ghosty Input control dashboard" />
+</a>
+
+**Camera-based gesture control with a usable desktop control surface.**
+
+<a href="https://github.com/imedkablavi/ghosty_input"><img src="https://img.shields.io/badge/EXPLORE-GHOSTY%20INPUT-36BCF7?style=flat-square&logo=github&logoColor=111111" alt="Explore Ghosty Input" /></a>
+
+</td>
+</tr>
+<tr>
+<td width="50%" align="center" valign="top">
+
+### 🎮 Discord Rich Presence — Control Panel
+
+<a href="https://github.com/imedkablavi/discord-rich-presence">
+<img src="https://raw.githubusercontent.com/imedkablavi/discord-rich-presence/main/docs/images/control-panel.png" width="100%" alt="Discord Rich Presence control panel" />
+</a>
+
+**Privacy-first desktop context control for Linux and Windows.**
+
+<a href="https://github.com/imedkablavi/discord-rich-presence"><img src="https://img.shields.io/badge/EXPLORE-RICH%20PRESENCE-36BCF7?style=flat-square&logo=github&logoColor=111111" alt="Explore Discord Rich Presence" /></a>
+
+</td>
+<td width="50%" align="center" valign="top">
+
+### 🧭 OSINT Roadmap — Browser Tooling
+
+<a href="https://github.com/imedkablavi/OSINT-Roadmap">
+<img src="https://raw.githubusercontent.com/imedkablavi/OSINT-Roadmap/main/assets/osint-browser-tools.svg" width="100%" alt="OSINT Roadmap browser tooling" />
+</a>
+
+**Practical browser workflows connected to investigation methodology.**
+
+<a href="https://github.com/imedkablavi/OSINT-Roadmap"><img src="https://img.shields.io/badge/VIEW-RESOURCES-0e7490?style=flat-square&logo=github" alt="View OSINT resources" /></a>
+
+</td>
+</tr>
+</table>
 
 ---
 
@@ -310,6 +448,61 @@ Document and share the work.
 I also take part in **student communities, technology events and knowledge-sharing activities** around cybersecurity, programming, AI and practical technology skills.
 
 **Community Leadership** · **Podcasting** · **Events** · **Open Source** · **Technical Knowledge Sharing**
+
+</div>
+
+---
+
+## `> build-with-me --open-source`
+
+<div align="center">
+
+### WANT TO BUILD, TEST OR CONTRIBUTE?
+
+I welcome useful bug reports, reproducible test cases, documentation fixes, platform testing and focused contributions to the projects I actively maintain.
+
+</div>
+
+<table>
+<tr>
+<td width="33%" align="center" valign="top">
+
+### 🔐 Security & Forensics
+
+Scanner QA · forensic validation · evidence workflows · safe defaults
+
+<a href="https://github.com/imedkablavi/web-vuln-scanner/issues"><img src="https://img.shields.io/badge/WEB%20SCANNER-ISSUES-0e7490?style=flat-square&logo=github" alt="Web scanner issues" /></a>
+<a href="https://github.com/imedkablavi/vidrensic/issues"><img src="https://img.shields.io/badge/VIDRENSIC-ISSUES-0e7490?style=flat-square&logo=github" alt="Vidrensic issues" /></a>
+
+</td>
+<td width="33%" align="center" valign="top">
+
+### 🐧 Linux & Desktop
+
+Packaging · hardware testing · desktop UX · reliability · cross-platform behavior
+
+<a href="https://github.com/imedkablavi/DevDoctor/issues"><img src="https://img.shields.io/badge/DEVDOCTOR-ISSUES-0e7490?style=flat-square&logo=github" alt="DevDoctor issues" /></a>
+<a href="https://github.com/imedkablavi/ghosty_input/issues"><img src="https://img.shields.io/badge/GHOSTY-ISSUES-0e7490?style=flat-square&logo=github" alt="Ghosty issues" /></a>
+
+</td>
+<td width="33%" align="center" valign="top">
+
+### 🕵️ OSINT & Privacy
+
+Resource verification · translations · provider updates · research workflows
+
+<a href="https://github.com/imedkablavi/OSINT-Roadmap/issues"><img src="https://img.shields.io/badge/OSINT-ISSUES-0e7490?style=flat-square&logo=github" alt="OSINT Roadmap issues" /></a>
+<a href="https://github.com/imedkablavi/Social-Media-Deletion-Guide/issues"><img src="https://img.shields.io/badge/PRIVACY%20GUIDE-ISSUES-0e7490?style=flat-square&logo=github" alt="Privacy guide issues" /></a>
+
+</td>
+</tr>
+</table>
+
+<div align="center">
+
+<a href="https://github.com/imedkablavi?tab=repositories"><img src="https://img.shields.io/badge/FIND%20A%20PROJECT-TO%20CONTRIBUTE-36BCF7?style=for-the-badge&logo=github&logoColor=111111" alt="Find a project to contribute" /></a>
+
+<sub>Good contributions are specific, testable and scoped. Security reports should follow each project's security policy where available.</sub>
 
 </div>
 
