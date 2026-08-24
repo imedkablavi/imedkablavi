@@ -377,16 +377,17 @@ SHARE       → document the work so others can learn from it
 </div>
 
 ---
-
 ## `> stack --core`
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=python,java,js,ts,react,nextjs,nodejs,fastapi,postgres,sqlite,redis,linux,bash,git,github,docker" alt="Core technology stack" />
+<img src="https://skillicons.dev/icons?i=python,js,ts,html,css,react,nextjs,nodejs,postgres,sqlite,redis,linux,bash,docker" alt="Verified project technology stack" />
 
 <br/><br/>
 
-`PYTHON` · `LINUX` · `BASH` · `FASTAPI` · `TYPESCRIPT` · `JAVASCRIPT` · `GIT` · `DOCKER`
+`PYTHON` · `JAVASCRIPT` · `TYPESCRIPT` · `HTML/CSS` · `REACT` · `NEXT.JS` · `NODE.JS`
+
+`POSTGRESQL` · `SQLITE` · `REDIS` · `LINUX` · `BASH` · `DOCKER`
 
 `DIGITAL FORENSICS` · `OSINT` · `WEB SECURITY` · `NETWORKING` · `SERVER ADMINISTRATION`
 
@@ -452,7 +453,6 @@ I also take part in **student communities, technology events and knowledge-shari
 </div>
 
 ---
-
 ## `> build-with-me --open-source`
 
 <div align="center">
