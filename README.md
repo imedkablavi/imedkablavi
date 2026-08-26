@@ -90,6 +90,49 @@ Cross-platform packaging · reconnect behavior · updater design · privacy QA
 
 ---
 
+## `> open-source --packages`
+
+<div align="center">
+
+### PUBLISHED OPEN-SOURCE PACKAGES
+
+<sub>Reusable developer and security tooling I ship through AxiomNode Lab.</sub>
+
+</div>
+
+<table>
+<tr>
+<td width="100%" valign="top">
+
+### 🛡️ [AxiomGuard](https://github.com/AxiomNode-lab/AxiomGuard)
+
+**Security building blocks for modern Node.js and TypeScript services.**
+
+A modular package for signed webhooks, API keys, browser request policy, idempotency, SSRF-aware outbound requests, rate limiting, CSRF, CORS, secure cookies, secret-safe logging and repository scanning.
+
+<a href="https://www.npmjs.com/package/@axiomnode-lab/guard"><img src="https://img.shields.io/npm/v/@axiomnode-lab/guard?style=flat-square&logo=npm&label=NPM" alt="AxiomGuard npm version" /></a>
+<a href="https://www.npmjs.com/package/@axiomnode-lab/guard"><img src="https://img.shields.io/npm/dm/@axiomnode-lab/guard?style=flat-square&logo=npm&label=DOWNLOADS" alt="AxiomGuard npm downloads" /></a>
+<a href="https://github.com/AxiomNode-lab/AxiomGuard/pkgs/npm/guard"><img src="https://img.shields.io/badge/GITHUB-PACKAGES-0e7490?style=flat-square&logo=github" alt="AxiomGuard GitHub Package" /></a>
+<a href="https://github.com/AxiomNode-lab/AxiomGuard"><img src="https://img.shields.io/badge/SOURCE-AxiomGuard-36BCF7?style=flat-square&logo=github&logoColor=111111" alt="AxiomGuard source repository" /></a>
+
+**Install:** `npm install @axiomnode-lab/guard`
+
+`TypeScript` `Node.js 20+` `Security` `npm` `Open Source`
+
+**Published as:** `@axiomnode-lab/guard` · maintained through [AxiomNode Lab](https://github.com/AxiomNode-lab)
+
+</td>
+</tr>
+</table>
+
+<div align="center">
+
+<a href="https://github.com/AxiomNode-lab/AxiomGuard"><img src="https://img.shields.io/badge/EXPLORE-AXIOMGUARD-36BCF7?style=for-the-badge&logo=github&logoColor=111111" alt="Explore AxiomGuard" /></a>
+
+</div>
+
+---
+
 ## `> selected-work --flagship`
 
 <div align="center">
