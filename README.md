@@ -37,7 +37,7 @@
 <tr>
 <td width="25%" align="center" valign="top">
 
-### 🕵️ OSINT Roadmap
+###  OSINT Roadmap
 
 **Discovery & learning**
 
@@ -48,7 +48,7 @@ Tool Finder · multilingual content · QA · SEO · contributor workflow
 </td>
 <td width="25%" align="center" valign="top">
 
-### 👻 Ghosty Input
+###  Ghosty Input
 
 **Computer vision HCI**
 
@@ -59,7 +59,7 @@ Gesture reliability · calibration · camera handling · Linux/Windows productiz
 </td>
 <td width="25%" align="center" valign="top">
 
-### 🎙️ OxShift
+###  OxShift
 
 **Realtime audio**
 
@@ -70,7 +70,7 @@ Voice studio · soundboard · routing · latency · local-first AI workflows
 </td>
 <td width="25%" align="center" valign="top">
 
-### 🎮 Discord Rich Presence
+###  Discord Rich Presence
 
 **Desktop integration**
 
@@ -104,7 +104,7 @@ Cross-platform packaging · reconnect behavior · updater design · privacy QA
 <tr>
 <td width="100%" valign="top">
 
-### 🛡️ [AxiomGuard](https://github.com/AxiomNode-lab/AxiomGuard)
+###  [AxiomGuard](https://github.com/AxiomNode-lab/AxiomGuard)
 
 **Security building blocks for modern Node.js and TypeScript services.**
 
@@ -137,7 +137,7 @@ A modular package for signed webhooks, API keys, browser request policy, idempot
 
 <div align="center">
 
-### BUILT TO BE USED — NOT JUST DISPLAYED
+### BUILT TO BE USED - NOT JUST DISPLAYED
 
 <sub>A focused selection of the projects that best represent my work.</sub>
 
@@ -149,7 +149,7 @@ A modular package for signed webhooks, API keys, browser request policy, idempot
 <tr>
 <td width="50%" valign="top">
 
-### 🕵️ [OSINT Roadmap](https://github.com/imedkablavi/OSINT-Roadmap)
+###  [OSINT Roadmap](https://github.com/imedkablavi/OSINT-Roadmap)
 
 A multilingual, method-first **Open Source Intelligence framework** for learning investigation workflows, verification, evidence handling and professional OSINT practice.
 
@@ -163,7 +163,7 @@ A multilingual, method-first **Open Source Intelligence framework** for learning
 </td>
 <td width="50%" valign="top">
 
-### 🔬 [Vidrensic](https://github.com/imedkablavi/vidrensic)
+###  [Vidrensic](https://github.com/imedkablavi/vidrensic)
 
 A forensic-first platform for **DVR/NVR storage reconstruction, CCTV triage and video recovery**, designed around read-only handling, validation and auditable evidence workflows.
 
@@ -179,7 +179,7 @@ A forensic-first platform for **DVR/NVR storage reconstruction, CCTV triage and 
 <tr>
 <td width="50%" valign="top">
 
-### 🩺 [DevDoctor](https://github.com/imedkablavi/DevDoctor)
+###  [DevDoctor](https://github.com/imedkablavi/DevDoctor)
 
 A Linux workstation bootstrap and repair CLI that inventories developer tools, detects broken setups, explains problems and produces safer installation or repair plans.
 
@@ -193,7 +193,7 @@ A Linux workstation bootstrap and repair CLI that inventories developer tools, d
 </td>
 <td width="50%" valign="top">
 
-### 🔏 [Social Media Deletion Guide](https://github.com/imedkablavi/Social-Media-Deletion-Guide)
+###  [Social Media Deletion Guide](https://github.com/imedkablavi/Social-Media-Deletion-Guide)
 
 A multilingual privacy guide for deleting accounts and data across social, online and AI services using first-party provider instructions and searchable static pages.
 
@@ -209,7 +209,7 @@ A multilingual privacy guide for deleting accounts and data across social, onlin
 <tr>
 <td width="50%" valign="top">
 
-### 🎮 [Discord Rich Presence](https://github.com/imedkablavi/discord-rich-presence)
+###  [Discord Rich Presence](https://github.com/imedkablavi/discord-rich-presence)
 
 A **privacy-first Discord Rich Presence** project for Linux and Windows with app, browser, game, media and terminal context detection plus a local companion architecture.
 
@@ -223,7 +223,7 @@ A **privacy-first Discord Rich Presence** project for Linux and Windows with app
 </td>
 <td width="50%" valign="top">
 
-### 👻 [Ghosty Input](https://github.com/imedkablavi/ghosty_input)
+###  [Ghosty Input](https://github.com/imedkablavi/ghosty_input)
 
 Touch-free interaction using **computer vision**: hand-gesture mouse control plus a desk-surface virtual keyboard with camera-based calibration.
 
@@ -239,7 +239,7 @@ Touch-free interaction using **computer vision**: hand-gesture mouse control plu
 <tr>
 <td width="50%" valign="top">
 
-### 🛡️ [Web Vulnerability Scanner](https://github.com/imedkablavi/web-vuln-scanner)
+###  [Web Vulnerability Scanner](https://github.com/imedkablavi/web-vuln-scanner)
 
 An **authorized-target** web security scanner with scoped crawling, posture checks, API discovery, DNS/TLS inventory, evidence-oriented findings and explicitly controlled active checks.
 
@@ -253,7 +253,7 @@ An **authorized-target** web security scanner with scoped crawling, posture chec
 </td>
 <td width="50%" valign="top">
 
-### 🎙️ [OxShift](https://github.com/imedkablavi/oxshift)
+###  [OxShift](https://github.com/imedkablavi/oxshift)
 
 A **local-first desktop voice studio and real-time voice changer** with soundboard workflows, virtual-mic routing, recording, profiles, diagnostics and experimental local AI voice support.
 
@@ -280,7 +280,7 @@ A **local-first desktop voice studio and real-time voice changer** with soundboa
 
 <div align="center">
 
-### SEE THE WORK — NOT JUST THE REPOSITORY NAMES
+### SEE THE WORK - NOT JUST THE REPOSITORY NAMES
 
 <sub>Real project visuals pulled directly from the projects shown below.</sub>
 
@@ -290,7 +290,7 @@ A **local-first desktop voice studio and real-time voice changer** with soundboa
 <tr>
 <td width="50%" align="center" valign="top">
 
-### 🕵️ OSINT Roadmap — Investigation Workflow
+###  OSINT Roadmap - Investigation Workflow
 
 <a href="https://github.com/imedkablavi/OSINT-Roadmap">
 <img src="https://raw.githubusercontent.com/imedkablavi/OSINT-Roadmap/main/assets/osint-workflow.svg" width="100%" alt="OSINT Roadmap investigation workflow" />
@@ -303,7 +303,7 @@ A **local-first desktop voice studio and real-time voice changer** with soundboa
 </td>
 <td width="50%" align="center" valign="top">
 
-### 👻 Ghosty Input — Control Dashboard
+###  Ghosty Input - Control Dashboard
 
 <a href="https://github.com/imedkablavi/ghosty_input">
 <img src="https://raw.githubusercontent.com/imedkablavi/ghosty_input/main/assets/screenshots/dashboard.png" width="100%" alt="Ghosty Input control dashboard" />
@@ -318,7 +318,7 @@ A **local-first desktop voice studio and real-time voice changer** with soundboa
 <tr>
 <td width="50%" align="center" valign="top">
 
-### 🎮 Discord Rich Presence — Control Panel
+###  Discord Rich Presence - Control Panel
 
 <a href="https://github.com/imedkablavi/discord-rich-presence">
 <img src="https://raw.githubusercontent.com/imedkablavi/discord-rich-presence/main/docs/images/control-panel.png" width="100%" alt="Discord Rich Presence control panel" />
@@ -331,7 +331,7 @@ A **local-first desktop voice studio and real-time voice changer** with soundboa
 </td>
 <td width="50%" align="center" valign="top">
 
-### 🧭 OSINT Roadmap — Browser Tooling
+###  OSINT Roadmap - Browser Tooling
 
 <a href="https://github.com/imedkablavi/OSINT-Roadmap">
 <img src="https://raw.githubusercontent.com/imedkablavi/OSINT-Roadmap/main/assets/osint-browser-tools.svg" width="100%" alt="OSINT Roadmap browser tooling" />
@@ -373,15 +373,15 @@ SHARE       → document the work so others can learn from it
 
 ### `operating-context`
 
-- 🎓 Forensic Informatics Engineering
-- 🔐 Cybersecurity & security tooling
-- 🔬 Digital forensics & evidence workflows
-- 🕵️ OSINT & investigation methodology
-- 🐧 Linux, servers & infrastructure
-- 🤖 AI-assisted tooling & automation
-- 👁️ Computer vision experiments
-- 🎙️ Real-time audio & desktop tooling
-- 🤝 Open-source & technical communities
+-  Forensic Informatics Engineering
+-  Cybersecurity & security tooling
+-  Digital forensics & evidence workflows
+-  OSINT & investigation methodology
+-  Linux, servers & infrastructure
+-  AI-assisted tooling & automation
+-  Computer vision experiments
+-  Real-time audio & desktop tooling
+-  Open-source & technical communities
 
 </td>
 </tr>
@@ -510,7 +510,7 @@ I welcome useful bug reports, reproducible test cases, documentation fixes, plat
 <tr>
 <td width="33%" align="center" valign="top">
 
-### 🔐 Security & Forensics
+###  Security & Forensics
 
 Scanner QA · forensic validation · evidence workflows · safe defaults
 
@@ -520,7 +520,7 @@ Scanner QA · forensic validation · evidence workflows · safe defaults
 </td>
 <td width="33%" align="center" valign="top">
 
-### 🐧 Linux & Desktop
+###  Linux & Desktop
 
 Packaging · hardware testing · desktop UX · reliability · cross-platform behavior
 
@@ -530,7 +530,7 @@ Packaging · hardware testing · desktop UX · reliability · cross-platform beh
 </td>
 <td width="33%" align="center" valign="top">
 
-### 🕵️ OSINT & Privacy
+###  OSINT & Privacy
 
 Resource verification · translations · provider updates · research workflows
 
@@ -569,9 +569,9 @@ Resource verification · translations · provider updates · research workflows
 
 If my open-source work, research, or security resources help you, consider supporting the work.
 
-<a href="https://buymeacoffee.com/imed_kablavi"><img src="https://img.shields.io/badge/☕%20Buy%20Me%20a%20Coffee-F5C542?style=for-the-badge&logo=buymeacoffee&logoColor=111111" /></a>
+<a href="https://buymeacoffee.com/imed_kablavi"><img src="https://img.shields.io/badge/%20Buy%20Me%20a%20Coffee-F5C542?style=for-the-badge&logo=buymeacoffee&logoColor=111111" /></a>
 
-**Star ⭐ • Fork 🍴 • Contribute 🤝 • Share 🚀**
+**Star ⭐ • Fork  • Contribute  • Share **
 
 </div>
 
