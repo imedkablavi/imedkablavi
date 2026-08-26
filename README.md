@@ -571,7 +571,7 @@ If my open-source work, research, or security resources help you, consider suppo
 
 <a href="https://buymeacoffee.com/imed_kablavi"><img src="https://img.shields.io/badge/%20Buy%20Me%20a%20Coffee-F5C542?style=for-the-badge&logo=buymeacoffee&logoColor=111111" /></a>
 
-**Star ⭐ • Fork  • Contribute  • Share **
+**Star  • Fork  • Contribute  • Share **
 
 </div>
 
