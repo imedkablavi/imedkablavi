@@ -13,7 +13,7 @@
 <a href="https://github.com/imedkablavi?tab=repositories"><img src="https://img.shields.io/badge/EXPLORE-PROJECTS-0e7490?style=for-the-badge&logo=github&logoColor=white" alt="Explore projects" /></a>
 <a href="https://github.com/imedkablavi"><img src="https://img.shields.io/badge/FOLLOW-FOR%20NEW%20BUILDS-36BCF7?style=for-the-badge&logo=github&logoColor=111111" alt="Follow for new builds" /></a>
 <a href="https://github.com/imedkablavi?tab=followers"><img src="https://img.shields.io/github/followers/imedkablavi?style=for-the-badge&logo=github&label=FOLLOWERS&color=0e7490" alt="GitHub followers" /></a>
-<img src="https://komarev.com/ghpvc/?username=imedkablavi&style=for-the-badge&color=0e7490&label=PROFILE+VIEWS" alt="Profile views" />
+<img src="https://views-counter.vercel.app/badge?pageId=imedkablavi%2Fimedkablavi&leftColor=050505&rightColor=0e7490&label=PROFILE%20VIEWS&style=upper" alt="Profile views" />
 
 <br/><br/>
 
