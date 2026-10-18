@@ -14,6 +14,7 @@
 <a href="https://github.com/imedkablavi"><img src="https://img.shields.io/badge/FOLLOW-FOR%20NEW%20BUILDS-36BCF7?style=for-the-badge&logo=github&logoColor=111111" alt="Follow for new builds" /></a>
 <a href="https://github.com/imedkablavi?tab=followers"><img src="https://img.shields.io/github/followers/imedkablavi?style=for-the-badge&logo=github&label=FOLLOWERS&color=0e7490" alt="GitHub followers" /></a>
 <img src="https://views-counter.vercel.app/badge?pageId=imedkablavi%2Fimedkablavi&leftColor=050505&rightColor=0e7490&label=PROFILE%20VIEWS&style=upper" alt="Profile views" />
+<a href="https://imedkablavi.info"><img src="https://img.shields.io/badge/WEBSITE-imedkablavi.info-36BCF7?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Visit my personal website" /></a>
 
 <br/><br/>
 
@@ -21,27 +22,41 @@
 
 </div>
 
-## ` connect`
+---
+
+## Featured Projects
+
+A selection of projects I'm building, maintaining, or contributing to. Check each repository for its current status, supported platforms, and contribution notes.
+
+- **[OSINT-Roadmap](https://github.com/imedkablavi/OSINT-Roadmap)** — a multilingual, method-first learning roadmap with investigation playbooks, curated tools, practice labs, and reporting guidance.
+- **[Vidrensic](https://github.com/imedkablavi/vidrensic)** — forensic-first DVR/NVR evidence reconstruction and video analysis. Currently in alpha development and validation.
+- **[Ghosty Input](https://github.com/imedkablavi/ghosty_input)** — offline hand-gesture mouse control and a desk-surface virtual keyboard.
+- **[OxShift](https://github.com/imedkablavi/oxshift)** — a local-first desktop voice studio with a real-time voice changer, soundboard, and recording tools; still in development.
+- **[AxiomGuard](https://github.com/AxiomNode-lab/AxiomGuard)** — modular security building blocks for Node.js and TypeScript services, maintained under AxiomNode-lab.
+
+**Found something useful?** Star the repository, report a reproducible issue, or contribute a focused improvement. Please check the project status before relying on development-stage features.
+
+## `> connect`
 
 <div align="center">
-<a href="https://github.com/imedkablavi"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
-<a href="https://linkedin.com/in/imed-kablavi-a3b518376"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-<a href="https://x.com/imed_kablavi"><img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" /></a>
-<a href="https://instagram.com/imed_kablavi"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" /></a>
-<a href="https://discord.gg/.cybrex"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" /></a>
+<a href="https://github.com/imedkablavi"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub profile" /></a>
+<a href="https://linkedin.com/in/imed-kablavi-a3b518376"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn profile" /></a>
+<a href="https://x.com/imed_kablavi"><img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" alt="X profile" /></a>
+<a href="https://instagram.com/imed_kablavi"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram profile" /></a>
+<a href="https://discord.gg/.cybrex"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord community" /></a>
 </div>
 
 ---
 
-## ` support --cybrextech`
+## `> support --cybrextech`
 
 <div align="center">
 
 If my open-source work, research, or security resources help you, consider supporting the work.
 
-<a href="https://buymeacoffee.com/imed_kablavi"><img src="https://img.shields.io/badge/%20Buy%20Me%20a%20Coffee-F5C542?style=for-the-badge&logo=buymeacoffee&logoColor=111111" /></a>
+<a href="https://buymeacoffee.com/imed_kablavi"><img src="https://img.shields.io/badge/%20Buy%20Me%20a%20Coffee-F5C542?style=for-the-badge&logo=buymeacoffee&logoColor=111111" alt="Support my work on Buy Me a Coffee" /></a>
 
-**Star  • Fork  • Contribute  • Share **
+**Star · Fork · Contribute · Share**
 
 </div>
 
@@ -53,7 +68,7 @@ If my open-source work, research, or security resources help you, consider suppo
 
 Security tooling · Forensics · OSINT · Linux · Desktop Software · Open Source
 
-<a href="https://github.com/imedkablavi"><img src="https://img.shields.io/badge/FOLLOW%20%40imedkablavi-36BCF7?style=for-the-badge&logo=github&logoColor=111111" alt="Follow imedkablavi" /></a>
+<a href="https://github.com/imedkablavi"><img src="https://img.shields.io/badge/FOLLOW%20%40imedkablavi-36BCF7?style=for-the-badge&logo=github&logoColor=111111" alt="Follow imedkablavi on GitHub" /></a>
 
 <img src="https://capsule-render.vercel.app/api?type=waving&height=125&section=footer&color=0:123b5d,50:0b1f33,100:050505" width="100%" alt="Profile footer" />
 
