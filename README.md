@@ -21,7 +21,7 @@
 
 </div>
 
-## `> connect`
+## ` connect`
 
 <div align="center">
 <a href="https://github.com/imedkablavi"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
@@ -33,7 +33,7 @@
 
 ---
 
-## `> support --cybrextech`
+## ` support --cybrextech`
 
 <div align="center">
 
